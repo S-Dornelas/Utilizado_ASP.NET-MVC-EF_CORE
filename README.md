@@ -1,7 +1,7 @@
 # Utilizado_ASP.NET-MVC-EF_CORE
 Pequeno projeto utilizando ASP .NET / MVC / EF CORE
 
-Com esse projeto pude entender e aprender ios conceitos e como utilizar o MVC.
+Com esse projeto pude entender e aprender os conceitos e como utilizar o MVC.
 
 Entendemos que na web, o cliente utiliza um navegador, constituindo o que levamos de *cliente side* (lado do cliente) para se conectar a um servidor no *server side* (lado do servidor) por meio de um endereço ou URL (Uniform Resource Locator) que, em português, é conhecido como localizador padrão de recursos. O uso da URL foi a forma textual encontrada para facilitar o direcionamento a um endereço *Internet Protocol* (IP), sendo que essa tradução é feita por meio de servidores de serviços de DNS (Domain Name Server), ou Sistema de Nomes e Domínios.
 
@@ -27,43 +27,43 @@ O Postman é uma ferramenta que tem como objetivo TESTAR serviços RESTful (Web 
 
 O protocolo HTTP define um conjunto de **métodos de requisição** responsáveis por indicar a ação a ser executada para um dado recurso. Embora esses métodos possam ser descritos como substantivos, eles também são comumente referenciados como ***HTTP Verbs (Verbos HTTP)***.
 
-- `[GET](https://developer.mozilla.org/pt-BR/docs/Web/HTTP/Methods/GET)`
+- [GET]
 
 O método `GET` solicita a representação de um recurso específico. Requisições utilizando o método `GET` devem retornar apenas dados.
 
-- `[HEAD](https://developer.mozilla.org/pt-BR/docs/Web/HTTP/Methods/HEAD)`
+- [HEAD]
 
 O método `HEAD` solicita uma resposta de forma idêntica ao método `GET`, porém sem conter o corpo da resposta.
 
-- `[POST](https://developer.mozilla.org/pt-BR/docs/Web/HTTP/Methods/POST)`
+- [POST]
 
 O método `POST` é utilizado para submeter uma entidade a um recurso específico, frequentemente causando uma mudança no estado do recurso ou efeitos colaterais no servidor.
 
-- `[PUT](https://developer.mozilla.org/pt-BR/docs/Web/HTTP/Methods/PUT)`
+- [PUT]
 
 O método `PUT` substitui todas as atuais representações do recurso de destino pela carga de dados da requisição.
 
-- `[DELETE](https://developer.mozilla.org/pt-BR/docs/Web/HTTP/Methods/DELETE)`
+- [DELETE]
 
 O método `DELETE` remove um recurso específico.
 
-- `[CONNECT](https://developer.mozilla.org/pt-BR/docs/Web/HTTP/Methods/CONNECT)`
+- [CONNECT]
 
 O método `CONNECT` estabelece um túnel para o servidor identificado pelo recurso de destino.
 
-- `[OPTIONS](https://developer.mozilla.org/pt-BR/docs/Web/HTTP/Methods/OPTIONS)`
+- [OPTIONS]
 
 O método `OPTIONS` é usado para descrever as opções de comunicação com o recurso de destino.
 
-- `[TRACE](https://developer.mozilla.org/pt-BR/docs/Web/HTTP/Methods/TRACE)`
+- [TRACE]
 
 O método `TRACE` executa um teste de chamada *loop-back* junto com o caminho para o recurso de destino.
 
-- `[PATCH](https://developer.mozilla.org/pt-BR/docs/Web/HTTP/Methods/PATCH)`
+- [PATCH]
 
 O método `PATCH` é utilizado para aplicar modificações parciais em um recurso.
 
-Entendendo o padrão MVC
+- **Entendendo o padrão MVC**
 
 O **MVC** (Models, Views e Controllers) é uma arquitetura ou padrão que lhe permite dividir as funcionalidades do seu sistema/site em camadas, essa divisão é realizada para resoluções de um problema maior.
 
